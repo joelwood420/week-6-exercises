@@ -1,0 +1,71 @@
+body {
+    background-color: #000000;
+}
+.container {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: #141414;
+}
+
+.profile {
+    background: #212322;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  padding: 40px 32px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.avatar-jessica {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.4rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+h2 {
+     font-size: 1rem;
+  color: #b8ff4b;
+  font-weight: 500;
+  margin-bottom: 24 px;
+}
+
+p {
+     color: #adadad;
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 12
+  px;
+}
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.profile-link-button {
+  background: #2c2c2c;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profile-link-button:active {
+  background: #b8ff4b;
+    color: #000;
+}
